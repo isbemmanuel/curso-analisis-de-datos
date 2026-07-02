@@ -6,5 +6,6 @@
     git add .
 #obtener el estado actual del repositorio
     git status
-#Crear comit
+#Crear commit
+    git comit -m "agregas un comentario"
 #Empujar el cambio
