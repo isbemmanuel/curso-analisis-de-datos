@@ -21,5 +21,5 @@ RUN echo "c.NotebookApp.token =''" >> /root/.jupyter/jupyter_motebook_config.py 
 EXPOSE 8888
 
 #EJECUCION DE LA APLICACION
-CMD ["jupyter","notebook","--ip=0.0.0.0","--port=888","--no-browser","--allow-root"]
+CMD ["jupyter","notebook","--ip=0.0.0.0","--port=8888","--no-browser","--allow-root"]
     
