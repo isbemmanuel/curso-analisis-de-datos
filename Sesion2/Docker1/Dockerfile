@@ -2,7 +2,7 @@
 FROM python:3.9-slim
 
 #Instalaciones de sistyemas y actualizaciones 
-RUN pi3 install --upgrade pip &&
+RUN pip3 install --upgrade pip && \
     pip3 install notebook==6.5.6
 
 #se define el directorio
